@@ -1,0 +1,41 @@
+#container
+{
+    width: 960px;
+    height:800px;
+    background-color:black;
+    color: blanchedalmond;
+    margin:auto;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+}
+#banner
+{
+    width:300px;
+    height:500px;
+    float:left;
+    background-color:grey;
+    padding:10px;
+}
+#back
+{
+    width :300px;
+    height:500px;
+    float:left;
+    padding:10px;
+    background-color: darkkhaki;
+    font-size: 40px;
+    color:black;
+}
+#time
+{
+    float: inherit;
+}
+#img
+{
+    margin:12px;
+    width:120px;
+    height:100px;
+    padding-left: 30px;
+}
+
