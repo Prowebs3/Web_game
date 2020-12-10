@@ -6,37 +6,43 @@ if(isset($_SESSION['id'])){
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Login</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-  <div class="header">
-  	<h2>Login</h2>
-  </div>
-	
-  <form method="post" action="login.php">
+    <div id="container">
+        <div class="header">
+            <h2>Login</h2>
+        </div>
 
-  	<div class="input-group">
-  	  <label>Username</label>
-  	  <input type="text" name="username">
-  	</div>
-  	<div class="input-group">
-  	  <label>Password</label>
-  	  <input type="password" name="password">
-  	</div>
-  	<div class="input-group">
-  	  <button type="submit" class="btn" name="login">Login</button>
+        <form method="post" action="login.php" autocomplete="off">
 
-  	</div>
-	  <p id="demo"></p> 
-  	<p>
-  		<a href=" home.html">Back to home</a> &nbsp; &nbsp; &nbsp;
-      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;
-      <a href="signup.php">No account..Sign Up</p>
-  	</p>
-  </form>
-  <?php
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="username">
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password">
+            </div>
+            <div class="input-group">
+                <button type="submit" class="btn" name="login">Login</button>
+
+            </div>
+            <p id="demo"></p>
+            <p>
+           <button class="btn1"><a href="home.php">Back to home</a> </button>  &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <button class="btn1"> <a href="signup.php">No account..Sign Up </a></button>
+            </p>
+            </p>
+        </form>
+
+    </div>
+    <?php
 if(isset($_POST['login'])){
     include('server.php');
     $username=$_POST['username'];
@@ -51,8 +57,8 @@ if(isset($_POST['login'])){
 	else
 	{
 		?>
-        
-<?php
+
+    <?php
 
         $select_query = "SELECT * FROM `signup` WHERE `username`='$username' AND `password`='$password';";
         $query = mysqli_query($conn,$select_query);
@@ -69,5 +75,8 @@ if(isset($_POST['login'])){
 
     
 } ?>
+
+
 </body>
+
 </html>

@@ -1,41 +1,107 @@
-#container
-{
+#container {
     width: 960px;
-    height:800px;
-    background-color:black;
+    height: 800px;
+    background-color: black;
     color: blanchedalmond;
-    margin:auto;
+    margin: auto;
     font-size: 40px;
     text-align: center;
     padding: 5px;
 }
-#banner
-{
-    width:300px;
-    height:500px;
-    float:left;
-    background-color:grey;
-    padding:10px;
+
+#banner {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: grey;
+    padding: 10px;
 }
-#back
-{
-    width :300px;
-    height:500px;
-    float:left;
-    padding:10px;
+
+#back {
+    width: 300px;
+    height: 500px;
+    float: left;
+    padding: 10px;
     background-color: darkkhaki;
     font-size: 40px;
-    color:black;
+    color: black;
 }
-#time
-{
+
+#time {
     float: inherit;
 }
-#img
-{
-    margin:12px;
-    width:120px;
-    height:100px;
+
+#img {
+    margin: 12px;
+    width: 120px;
+    height: 100px;
     padding-left: 30px;
 }
 
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("kids.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    outline: 0;
+    align-items: center;
+}
+
+.fourth {
+    border-color: #f1c40f;
+    color: green;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.fourth:hover {
+    background-position: 0;
+}
+
+.cen {
+    margin-top: 200px;
+}
