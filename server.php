@@ -1,3 +1,3 @@
 <?php
-$conn=mysqli_connect('localhost','root','','game');
+$conn=mysqli_connect('localhost:3307','root','','game');
 ?>

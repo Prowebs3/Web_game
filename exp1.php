@@ -24,7 +24,7 @@ mysql_close($link);
 
 header("Content-type: image/jpeg");
 echo $row['dvdimage'];
-*/
+
 $id=$_GET['id'];
  // Using database connection file here
  $query = "SELECT `image` FROM `signup` WHERE `id`='$id';";
@@ -37,7 +37,7 @@ while($data = mysqli_fetch_array($records))
 
 <?php
 echo  '<img src=" data:image/jpeg;base64,'.base64_encode($data['image'] ).'" width="100" height="100"/>';
-}
+}*/
 ?>
 
             
