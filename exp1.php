@@ -34,8 +34,9 @@ $records= mysqli_query($conn,$query);
 while($data = mysqli_fetch_array($records))
 {
 ?>
-echo'<img src=" data:image/jpeg;base64,'.base64_encode($data['image'] ).'" width="100" height="100"/>';
+
 <?php
+echo  '<img src=" data:image/jpeg;base64,'.base64_encode($data['image'] ).'" width="100" height="100"/>';
 }
 ?>
 
