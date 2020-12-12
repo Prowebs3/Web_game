@@ -20,8 +20,9 @@
 
     <center>
         <div class="cen">
+            <img src="abcd.png" width="400" height="200">
             <button class="btn fourth" onclick="location.href='login.php'">PLAY GAME </button>
-            <button class="btn fourth">HELP?</button>
+            <button class="btn fourth" onclick="location.href='help.html'">HELP?</button>
 
         </div>
 
