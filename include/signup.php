@@ -10,7 +10,7 @@
   	<h2>Register</h2>
   </div>
 	
-  <form method="post" action="signup.php" enctype="multipart/form-data"  autocomplete="off">
+  <form method="post" action="include/signup.php" enctype="multipart/form-data"  autocomplete="off">
   	<div class="input-group">
   	  <label>Username</label>
   	  <input type="text" name="username" >

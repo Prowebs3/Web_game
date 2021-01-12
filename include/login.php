@@ -34,7 +34,7 @@ if(isset($_SESSION['id'])){
             </div>
             <p id="demo"></p>
             <p>
-           <button class="btn1"><a href="home.php">Back to home</a> </button>  &nbsp; &nbsp; &nbsp;
+           <button class="btn1"><a href="index.php">Back to home</a> </button>  &nbsp; &nbsp; &nbsp;
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <button class="btn1"> <a href="signup.php">No account..Sign Up </a></button>
             </p>
@@ -70,7 +70,7 @@ if(isset($_POST['login'])){
             }
         }
         
-    header("Location: exp1.php?id=$id");
+    header("Location:exp1.php?id=$id");
     }
 
     

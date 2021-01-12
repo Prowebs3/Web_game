@@ -10,10 +10,10 @@
     <h6>LEVEL 2 of 3</h6>
     <div id="time"></div>
     <div id="banner">
-        <input type="image" src="cow.png"  alt="Submit"  onclick="loss()" id="img" >
-        <input type="image" src="lion.png"  alt="Submit" onclick="loss()" id="img">
-        <input type="image" src="donkey.png"  alt="Submit" onclick="loss()" id="img" >
-        <input type="image" src="cat.png"  alt="Submit" onclick="loss()" id="img" >
+        <input type="image" src="image/cow.png"  alt="Submit"  onclick="loss()" id="img" >
+        <input type="image" src="image/lion.png"  alt="Submit" onclick="loss()" id="img">
+        <input type="image" src="image/donkey.png"  alt="Submit" onclick="loss()" id="img" >
+        <input type="image" src="image/cat.png"  alt="Submit" onclick="loss()" id="img" >
     </div>
     
        <div id ="back">
@@ -23,10 +23,10 @@
       </div>
       
       <div id="banner">
-        <input type="image" src="Goat.png" alt="Submit"  onclick="loss()" id="img">
-        <input type="image" src="monkey.png"  alt="Submit" onclick="loss()" id="img">
-        <input type="image" src="dog.png"  alt="Submit" onclick="loss()" id="img">
-        <input type="image" src="tiger.png"  alt="Submit" onclick="location.href='main2.html'" id="img"  >
+        <input type="image" src="image/Goat.png" alt="Submit"  onclick="loss()" id="img">
+        <input type="image" src="image/monkey.png"  alt="Submit" onclick="loss()" id="img">
+        <input type="image" src="image/dog.png"  alt="Submit" onclick="loss()" id="img">
+        <input type="image" src="image/tiger.png"  alt="Submit" onclick="location.href='main2.html'" id="img"  >
     </div>
     
        

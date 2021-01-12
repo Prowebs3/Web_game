@@ -49,10 +49,10 @@ echo  '<img src=" data:image/jpeg;base64,'.base64_encode($data['image'] ).'" wid
         
     </div>
     <div id="banner">
-        <input type="image" src="apple.png"  alt="Submit"  onclick="location.href='main.html'" id="img" >
-        <input type="image" src="mango.png"  alt="Submit" onclick="loss()" id="img">
-        <input type="image" src="grape.png"  alt="Submit" onclick="loss()" id="img" >
-        <input type="image" src="lemon.png"  alt="Submit" onclick="loss()" id="img" >
+        <input type="image" src="image/apple.png"  alt="Submit"  onclick="location.href='main.html'" id="img" >
+        <input type="image" src="image/mango.png"  alt="Submit" onclick="loss()" id="img">
+        <input type="image" src="image/grape.png"  alt="Submit" onclick="loss()" id="img" >
+        <input type="image" src="image/lemon.png"  alt="Submit" onclick="loss()" id="img" >
     </div>
     
        <div id ="back">
@@ -62,10 +62,10 @@ echo  '<img src=" data:image/jpeg;base64,'.base64_encode($data['image'] ).'" wid
       </div>
       
       <div id="banner">
-        <input type="image" src="orange.png" alt="Submit"  onclick="loss()" id="img">
-        <input type="image" src="pear.png"  alt="Submit" onclick="loss()" id="img">
-        <input type="image" src="pomegranate.png"  alt="Submit" onclick="loss()" id="img">
-        <input type="image" src="strawberrry.png"  alt="Submit" onclick="loss()" id="img"  >
+        <input type="image" src="image/orange.png" alt="Submit"  onclick="loss()" id="img">
+        <input type="image" src="image/pear.png"  alt="Submit" onclick="loss()" id="img">
+        <input type="image" src="image/pomegranate.png"  alt="Submit" onclick="loss()" id="img">
+        <input type="image" src="image/strawberrry.png"  alt="Submit" onclick="loss()" id="img"  >
     </div>
     
        
